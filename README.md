@@ -1,4 +1,5 @@
 # Base REST API built with Node.js, Express, TypeORM, and PostgreSQL
+The intention of this repo is to serve as a base/template project that can be used to speed up the creation of new REST APIs.
 
 Steps to run this project:
 
@@ -44,3 +45,6 @@ Steps to run this project:
 		A Member can be part of many Groups
 
 		A Group can contain many Members
+
+## License
+[MIT](https://github.com/ChristopherSO/base-rest-api-with-nodejs-and-typeorm/blob/main/LICENSE)
