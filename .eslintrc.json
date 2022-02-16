@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base",
+		"plugin:import/typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+	"rules": {
+		"indent": [
+			"error",
+			"tab",
+			{ "ignoredNodes": ["PropertyDefinition"] }
+		],
+		"no-tabs": "off",
+		"arrow-parens": "off",
+		"quotes": ["error", "double"],
+		"padded-blocks": "off",
+		"lines-between-class-members": "off",
+		"object-curly-newline": "off",
+		"no-useless-constructor": "off",
+		"no-empty-function": "off",
+		"no-unused-vars": "off",
+		"import/extensions": [
+		   "error",
+		   "ignorePackages",
+		   { "ts": "never" }
+		],
+		"class-methods-use-this": "off",
+		"no-underscore-dangle": "off",
+		"no-return-assign": "off",
+		"import/no-cycle": "off",
+		"no-plusplus": "off",
+		"no-undef": "off",
+		"no-shadow": "off"
+	}
+}
